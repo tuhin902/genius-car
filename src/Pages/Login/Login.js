@@ -8,6 +8,7 @@ const Login = () => {
     const { login } = useContext(AuthContext);
 
     const handleLogin = event => {
+
         event.preventDefault();
         const form = event.target;
         const email = form.email.value;
